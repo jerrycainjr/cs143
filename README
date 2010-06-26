@@ -1,0 +1,18 @@
+cs143-examples hosts the collection of larger examples I plan
+on using when I teach Stanford Course CS143.  This file will
+be updated to reflect the order in which the examples are
+used.
+
+Lexical Analysis:
+- micro-scheme 
+   Introduces a trivial Scheme-like language to illustrate the
+   basic ideo of how flex works.
+- mini-scheme
+   Slightly more elaborate example illustrating how yylex--the
+   lexing function that flex creates for you--can be used to
+   extract information about all of the tokens one after another.
+   In practice, the parser (either a hand-written one, or a
+   yacc/bison-generated one) repeatedly calls this yylex function
+   to get the series of tokens.
+
+More To Come:
