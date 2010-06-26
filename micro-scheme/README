@@ -1,0 +1,8 @@
+This example assumes you have recent versions flex and g++ installed on your computer.
+To compile and see it in action, type the following at the command prompt:
+
+> flex micro-scheme.l
+> g++ -o micro-scheme lex.yy.c -lfl
+> ./micro-scheme micro-scheme-example.scm
+
+
