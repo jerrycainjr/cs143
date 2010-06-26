@@ -1,0 +1,10 @@
+This example assumes you have recent versions flex and g++ installed on your computer.
+If you're unfamiliar with these tools, then you can only benefit by first looking and working
+through the micro-scheme example first.
+To compile and see it in action, type the following at the command prompt:
+
+> flex mini-scheme.l
+> g++ -o mini-scheme lex.yy.c -lfl
+> ./mini-scheme mini-scheme-example.scm
+
+
